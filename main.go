@@ -1,7 +1,7 @@
 package main
 
 import (
-	"apiserverstudy/config"
+	"apiserver-study/config"
 	"errors"
 	"github.com/lexkong/log"
 	"github.com/spf13/pflag"
@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 
-	"apiserverstudy/router"
+	"apiserver-study/router"
 	"github.com/gin-gonic/gin"
 )
 
