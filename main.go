@@ -2,6 +2,7 @@ package main
 
 import (
 	"apiserver-study/config"
+	"apiserver-study/model"
 	"errors"
 	"github.com/lexkong/log"
 	"github.com/spf13/pflag"
@@ -23,6 +24,9 @@ func main() {
 	if err := config.Init(*cfg); err != nil {
 		panic(err)
 	}
+
+	model.DB.Init()
+	defer model.DB.Close()
 
 	gin.SetMode(viper.GetString("runmode"))
 

@@ -1,2 +1,22 @@
 {"level":"INFO","timestamp":"2019-04-10 16:10:08.986","file":"apiserverstudy/main.go:47","msg":"开始监听端口: :8080"}
 {"level":"INFO","timestamp":"2019-04-10 16:10:08.987","file":"apiserverstudy/main.go:44","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-04-13 15:51:20.508","file":"apiserver-study/main.go:47","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-13 15:51:20.509","file":"apiserver-study/main.go:44","msg":"路由器部署成功"}
+{"level":"ERROR","timestamp":"2019-04-17 21:43:38.088","file":"model/init.go:27","msg":"数据%!s(MISSING)l连接失败","data":{"error":"sql: unknown driver \"mysql\" (forgotten import?)"}}
+{"level":"ERROR","timestamp":"2019-04-17 22:12:00.863","file":"model/init.go:27","msg":"数据%!s(MISSING)l连接失败","data":{"error":"sql: unknown driver \"mysql\" (forgotten import?)"}}
+{"level":"ERROR","timestamp":"2019-04-17 22:17:18.374","file":"model/init.go:27","msg":"数据%!s(MISSING)l连接失败","data":{"error":"sql: unknown driver \"mysql\" (forgotten import?)"}}
+{"level":"ERROR","timestamp":"2019-04-17 22:20:23.483","file":"model/init.go:28","msg":"数据%!s(MISSING)l连接失败","data":{"error":"this authentication plugin is not supported"}}
+{"level":"INFO","timestamp":"2019-04-17 22:20:23.483","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-17 22:20:23.484","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"ERROR","timestamp":"2019-04-17 22:21:13.704","file":"model/init.go:28","msg":"数据%!s(MISSING)l连接失败","data":{"error":"this authentication plugin is not supported"}}
+{"level":"INFO","timestamp":"2019-04-17 22:21:32.342","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-17 22:21:32.343","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"ERROR","timestamp":"2019-04-17 22:25:49.002","file":"model/init.go:28","msg":"数据%!s(MISSING)l连接失败","data":{"error":"this authentication plugin is not supported"}}
+{"level":"INFO","timestamp":"2019-04-17 22:25:49.002","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-17 22:25:49.003","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"ERROR","timestamp":"2019-04-17 22:38:43.470","file":"model/init.go:28","msg":"数据%!s(MISSING)l连接失败","data":{"error":"this authentication plugin is not supported"}}
+{"level":"INFO","timestamp":"2019-04-17 22:38:43.470","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-17 22:38:43.471","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-04-17 22:46:38.284","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-17 22:46:38.284","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-04-17 22:46:39.291","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
