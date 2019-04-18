@@ -48,3 +48,40 @@
 {"level":"INFO","timestamp":"2019-04-18 16:16:42.880","file":"apiserver-study/main.go:50","msg":"开始监听端口: :8080"}
 {"level":"INFO","timestamp":"2019-04-18 16:16:42.882","file":"apiserver-study/main.go:47","msg":"路由器部署成功"}
 {"level":"DEBUG","timestamp":"2019-04-18 16:16:50.754","file":"user/create.go:23","msg":"username is: [], password is [test0001]"}
+{"level":"INFO","timestamp":"2019-04-18 18:11:12.553","file":"apiserver-study/main.go:50","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-18 18:11:12.553","file":"apiserver-study/main.go:51","msg":"listen tcp :8080: bind: address already in use"}
+{"level":"INFO","timestamp":"2019-04-18 18:14:40.893","file":"apiserver-study/main.go:50","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-18 18:14:40.894","file":"apiserver-study/main.go:47","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-04-18 18:14:55.415","file":"user/create.go:51","msg":"url username: admin2"}
+{"level":"INFO","timestamp":"2019-04-18 18:14:55.415","file":"user/create.go:54","msg":"url key param desc: test"}
+{"level":"INFO","timestamp":"2019-04-18 18:14:55.415","file":"user/create.go:57","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-18 18:14:55.415","file":"user/create.go:59","msg":"username: [admin], password: [test0001]"}
+{"level":"DEBUG","timestamp":"2019-04-18 18:23:23.246","file":"user/create.go:24","msg":"username is: [], password is [test0001]"}
+{"level":"ERROR","timestamp":"2019-04-18 18:23:23.301","file":"user/create.go:28","msg":"Get an error","data":{"error":"Err - code: 20102, message: 没有找到这个用户 这是一段增加的错误信息, error: username can not found in db: xx.xx.xx.xx"}}
+{"level":"DEBUG","timestamp":"2019-04-18 18:23:23.301","file":"user/create.go:32","msg":"错误类型是 ErrUserNotFound"}
+{"level":"INFO","timestamp":"2019-04-18 18:24:13.778","file":"user/create.go:51","msg":"url username: admin2"}
+{"level":"INFO","timestamp":"2019-04-18 18:24:13.792","file":"user/create.go:54","msg":"url key param desc: test"}
+{"level":"INFO","timestamp":"2019-04-18 18:24:13.792","file":"user/create.go:57","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-18 18:24:13.792","file":"user/create.go:59","msg":"username: [admin], password: []"}
+{"level":"INFO","timestamp":"2019-04-18 18:26:30.380","file":"apiserver-study/main.go:50","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-18 18:26:30.381","file":"apiserver-study/main.go:47","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-04-18 18:26:35.465","file":"user/create.go:51","msg":"url username: admin2"}
+{"level":"INFO","timestamp":"2019-04-18 18:26:35.465","file":"user/create.go:54","msg":"url key param desc: test"}
+{"level":"INFO","timestamp":"2019-04-18 18:26:35.465","file":"user/create.go:57","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-18 18:26:35.465","file":"user/create.go:59","msg":"username: [admin], password: []"}
+{"level":"INFO","timestamp":"2019-04-18 18:26:51.444","file":"user/create.go:51","msg":"url username: admin2"}
+{"level":"INFO","timestamp":"2019-04-18 18:26:51.444","file":"user/create.go:54","msg":"url key param desc: test"}
+{"level":"INFO","timestamp":"2019-04-18 18:26:51.444","file":"user/create.go:57","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-18 18:26:51.444","file":"user/create.go:59","msg":"username: [], password: [test0001]"}
+{"level":"INFO","timestamp":"2019-04-18 18:26:58.622","file":"user/create.go:51","msg":"url username: admin2"}
+{"level":"INFO","timestamp":"2019-04-18 18:26:58.622","file":"user/create.go:54","msg":"url key param desc: test"}
+{"level":"INFO","timestamp":"2019-04-18 18:26:58.622","file":"user/create.go:57","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-18 18:26:58.622","file":"user/create.go:59","msg":"username: [], password: []"}
+{"level":"INFO","timestamp":"2019-04-18 18:27:04.112","file":"user/create.go:51","msg":"url username: admin2"}
+{"level":"INFO","timestamp":"2019-04-18 18:27:04.112","file":"user/create.go:54","msg":"url key param desc: test"}
+{"level":"INFO","timestamp":"2019-04-18 18:27:04.112","file":"user/create.go:57","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-18 18:27:04.112","file":"user/create.go:59","msg":"username: [], password: []"}
+{"level":"INFO","timestamp":"2019-04-18 18:29:37.610","file":"user/create.go:51","msg":"url username: admin12"}
+{"level":"INFO","timestamp":"2019-04-18 18:29:37.610","file":"user/create.go:54","msg":"url key param desc: test"}
+{"level":"INFO","timestamp":"2019-04-18 18:29:37.610","file":"user/create.go:57","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-18 18:29:37.610","file":"user/create.go:59","msg":"username: [], password: []"}

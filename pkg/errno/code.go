@@ -8,4 +8,5 @@ var (
 
 	//用户模块 错误码
 	ErrUserNotFound = &Errno{Code: 20102, Message: "没有找到这个用户"}
+	ErrPasswordNil  = &Errno{Code: 20103, Message: "密码为空"}
 )
