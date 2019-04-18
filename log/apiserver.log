@@ -1,2 +1,50 @@
 {"level":"INFO","timestamp":"2019-04-10 16:10:08.986","file":"apiserverstudy/main.go:47","msg":"开始监听端口: :8080"}
 {"level":"INFO","timestamp":"2019-04-10 16:10:08.987","file":"apiserverstudy/main.go:44","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-04-13 15:51:20.508","file":"apiserver-study/main.go:47","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-13 15:51:20.509","file":"apiserver-study/main.go:44","msg":"路由器部署成功"}
+{"level":"ERROR","timestamp":"2019-04-17 21:43:38.088","file":"model/init.go:27","msg":"数据%!s(MISSING)l连接失败","data":{"error":"sql: unknown driver \"mysql\" (forgotten import?)"}}
+{"level":"ERROR","timestamp":"2019-04-17 22:12:00.863","file":"model/init.go:27","msg":"数据%!s(MISSING)l连接失败","data":{"error":"sql: unknown driver \"mysql\" (forgotten import?)"}}
+{"level":"ERROR","timestamp":"2019-04-17 22:17:18.374","file":"model/init.go:27","msg":"数据%!s(MISSING)l连接失败","data":{"error":"sql: unknown driver \"mysql\" (forgotten import?)"}}
+{"level":"ERROR","timestamp":"2019-04-17 22:20:23.483","file":"model/init.go:28","msg":"数据%!s(MISSING)l连接失败","data":{"error":"this authentication plugin is not supported"}}
+{"level":"INFO","timestamp":"2019-04-17 22:20:23.483","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-17 22:20:23.484","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"ERROR","timestamp":"2019-04-17 22:21:13.704","file":"model/init.go:28","msg":"数据%!s(MISSING)l连接失败","data":{"error":"this authentication plugin is not supported"}}
+{"level":"INFO","timestamp":"2019-04-17 22:21:32.342","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-17 22:21:32.343","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"ERROR","timestamp":"2019-04-17 22:25:49.002","file":"model/init.go:28","msg":"数据%!s(MISSING)l连接失败","data":{"error":"this authentication plugin is not supported"}}
+{"level":"INFO","timestamp":"2019-04-17 22:25:49.002","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-17 22:25:49.003","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"ERROR","timestamp":"2019-04-17 22:38:43.470","file":"model/init.go:28","msg":"数据%!s(MISSING)l连接失败","data":{"error":"this authentication plugin is not supported"}}
+{"level":"INFO","timestamp":"2019-04-17 22:38:43.470","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-17 22:38:43.471","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-04-17 22:46:38.284","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-17 22:46:38.284","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-04-17 22:46:39.291","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"ERROR","timestamp":"2019-04-18 13:43:48.008","file":"model/init.go:28","msg":"数据%!s(MISSING)l连接失败","data":{"error":"this authentication plugin is not supported"}}
+{"level":"INFO","timestamp":"2019-04-18 13:43:48.018","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-18 13:43:48.018","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"ERROR","timestamp":"2019-04-18 15:51:17.086","file":"model/init.go:28","msg":"数据%!s(MISSING)l连接失败","data":{"error":"this authentication plugin is not supported"}}
+{"level":"INFO","timestamp":"2019-04-18 15:51:17.117","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-18 15:51:17.118","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-04-18 15:52:02.237","file":"apiserver-study/main.go:50","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-18 15:52:02.238","file":"apiserver-study/main.go:64","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-04-18 15:52:03.279","file":"apiserver-study/main.go:47","msg":"路由器部署成功"}
+{"level":"DEBUG","timestamp":"2019-04-18 15:55:36.882","file":"user/create.go:23","msg":"username is: [admin], password is []"}
+{"level":"DEBUG","timestamp":"2019-04-18 15:56:48.771","file":"user/create.go:23","msg":"username is: [admin], password is [test0001]"}
+{"level":"DEBUG","timestamp":"2019-04-18 15:57:29.767","file":"user/create.go:23","msg":"username is: [admin], password is [test0001]"}
+{"level":"DEBUG","timestamp":"2019-04-18 15:57:35.436","file":"user/create.go:23","msg":"username is: [admin], password is [test0001]"}
+{"level":"DEBUG","timestamp":"2019-04-18 15:57:47.167","file":"user/create.go:23","msg":"username is: [], password is [test0001]"}
+{"level":"ERROR","timestamp":"2019-04-18 15:57:47.167","file":"user/create.go:27","msg":"Get an error","data":{"error":"Err - code: 20102, message: 没有找到这个用户 这是一段增加的错误信息, error: username can not found in db: xx.xx.xx.xx"}}
+{"level":"DEBUG","timestamp":"2019-04-18 15:57:47.167","file":"user/create.go:31","msg":"错误类型是 ErrUserNotFound"}
+{"level":"DEBUG","timestamp":"2019-04-18 16:11:57.108","file":"user/create.go:23","msg":"username is: [], password is [test0001]"}
+{"level":"ERROR","timestamp":"2019-04-18 16:11:57.108","file":"user/create.go:27","msg":"Get an error","data":{"error":"Err - code: 20102, message: 没有找到这个用户 这是一段增加的错误信息, error: username can not found in db: xx.xx.xx.xx"}}
+{"level":"DEBUG","timestamp":"2019-04-18 16:11:57.108","file":"user/create.go:31","msg":"错误类型是 ErrUserNotFound"}
+{"level":"INFO","timestamp":"2019-04-18 16:13:08.071","file":"apiserver-study/main.go:50","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-18 16:13:08.072","file":"apiserver-study/main.go:47","msg":"路由器部署成功"}
+{"level":"DEBUG","timestamp":"2019-04-18 16:13:22.334","file":"user/create.go:23","msg":"username is: [admin], password is [test0001]"}
+{"level":"DEBUG","timestamp":"2019-04-18 16:13:27.835","file":"user/create.go:23","msg":"username is: [], password is [test0001]"}
+{"level":"ERROR","timestamp":"2019-04-18 16:13:27.835","file":"user/create.go:27","msg":"Get an error","data":{"error":"Err - code: 20102, message: 没有找到这个用户 这是一段增加的错误信息, error: username can not found in db: xx.xx.xx.xx"}}
+{"level":"DEBUG","timestamp":"2019-04-18 16:13:27.835","file":"user/create.go:31","msg":"错误类型是 ErrUserNotFound"}
+{"level":"INFO","timestamp":"2019-04-18 16:16:42.880","file":"apiserver-study/main.go:50","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-04-18 16:16:42.882","file":"apiserver-study/main.go:47","msg":"路由器部署成功"}
+{"level":"DEBUG","timestamp":"2019-04-18 16:16:50.754","file":"user/create.go:23","msg":"username is: [], password is [test0001]"}

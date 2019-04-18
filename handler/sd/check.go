@@ -45,7 +45,7 @@ func DiskCheck(c *gin.Context) {
 		text = "警告"
 	}
 
-	message := fmt.Sprintf("%s - 已使用: %dMB (%dGB) / %dMB (%dGB) |" +
+	message := fmt.Sprintf("%s - 已使用: %dMB (%dGB) / %dMB (%dGB) |"+
 		" Used: %d%%", text, usedMB, usedGB, totalMB, totalGB, usedPercent)
 	c.String(status, "\n"+message)
 }
@@ -70,7 +70,7 @@ func CPUCheck(c *gin.Context) {
 		text = "警告"
 	}
 
-	message := fmt.Sprintf("%s - 平均负载: %.2f, %.2f, %.2f |" +
+	message := fmt.Sprintf("%s - 平均负载: %.2f, %.2f, %.2f |"+
 		" Cores: %d%%", text, l1, l5, l15, cores)
 	c.String(status, "\n"+message)
 }
@@ -96,7 +96,7 @@ func RAMCheck(c *gin.Context) {
 		text = "警告"
 	}
 
-	message := fmt.Sprintf("%s - 已使用: %dMB (%dGB) / %dMB (%dGB) |" +
+	message := fmt.Sprintf("%s - 已使用: %dMB (%dGB) / %dMB (%dGB) |"+
 		" Used: %d%%", text, usedMB, usedGB, totalMB, totalGB, usedPercent)
 	c.String(status, "\n"+message)
 }

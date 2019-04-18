@@ -24,6 +24,9 @@ func main() {
 		panic(err)
 	}
 
+	//model.DB.Init()
+	//defer model.DB.Close()
+
 	gin.SetMode(viper.GetString("runmode"))
 
 	// Create the Gin engine.
