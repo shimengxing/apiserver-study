@@ -2,14 +2,54 @@ package user
 
 import (
 	"apiserver-study/handler"
+	"apiserver-study/model"
 	"apiserver-study/pkg/errno"
+	"apiserver-study/util"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/lexkong/log"
+	"github.com/lexkong/log/lager"
 	"net/http"
 )
 
 func Create(c *gin.Context) {
+	log.Info("响应用户创建方法", lager.Data{"X-Request-Id": util.GetReqId(c)})
+	var r CreateRequest
+	if err := c.Bind(&r); err != nil {
+		handler.SendResponse(c, errno.ErrBind, nil)
+		return
+	}
+
+	u := model.UserModel{
+		Username: r.Username,
+		Password: r.Password,
+	}
+
+	if err := u.Validate(); err != nil {
+		handler.SendResponse(c, errno.Errvalidation, nil)
+		return
+	}
+
+	//加密密码
+	if err := u.Encrypt(); err != nil {
+		handler.SendResponse(c, errno.ErrEncrypt, nil)
+		return
+	}
+
+	//加入用户信息到数据库
+	if err := u.Create(); err != nil {
+		handler.SendResponse(c, errno.ErrDatabase, nil)
+		return
+	}
+
+	rsp := CreateResponse{
+		Username: r.Username,
+	}
+
+	handler.SendResponse(c, nil, rsp)
+}
+
+func CreateStudy1(c *gin.Context) {
 	var r struct {
 		Username string `json:"username"`
 		Password string `json:"password"`
@@ -40,7 +80,7 @@ func Create(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"code": code, "message": message})
 }
 
-func CreateUser(c *gin.Context) {
+func CreateStudy2(c *gin.Context) {
 	var cr CreateRequest
 	if err := c.Bind(&cr); err != nil {
 		handler.SendResponse(c, errno.ErrBind, nil)
