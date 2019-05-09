@@ -55,7 +55,7 @@ func ListUser(username string, offset interface{}, limit int) ([]*UserModel, uin
 		return users, count, err
 	}
 
-	//根据数据数组
+	//根据数据分组
 	if err := DB.Docker.Where(where).Offset(offset).Limit(limit).Order("id desc").Find(&users).Error; err != nil {
 		return users, count, err
 	}

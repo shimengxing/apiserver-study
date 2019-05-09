@@ -3,6 +3,7 @@ addr: :8080  #http绑定端口
 name: apiserverstuty  #API Servier的名称
 url: http://127.0.0.1 #ip地址
 max_ping_count: 10  #最大ping的次数
+jwt_secret: Rtg8BPKNEf2mB4mgvKONGPZZQSaJWNLijxR42qRgq0iBb5 #token secret
 log:
   writers: file,stdout #输出位置，有两个可选项 —— file 和 stdout。选择 file 会将日志记录到 logger_file 指定的日志文件中，选择 stdout 会将日志输出到标准输出，当然也可以两者同时选择
   logger_level: DEBUG #日志级别，DEBUG、INFO、WARN、ERROR、FATAL

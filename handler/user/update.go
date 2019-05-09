@@ -21,7 +21,6 @@ func Update(c *gin.Context) {
 
 	u.CreatedAt = time.Now()
 
-
 	u.Id = uint64(userId)
 
 	if err := u.Validate(); err != nil {

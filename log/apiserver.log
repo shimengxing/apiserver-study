@@ -167,3 +167,119 @@
 {"level":"INFO","timestamp":"2019-04-19 18:21:00.294","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
 {"level":"INFO","timestamp":"2019-04-19 18:21:00.295","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
 {"level":"INFO","timestamp":"2019-04-19 18:21:01.308","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"ERROR","timestamp":"2019-05-08 16:24:21.663","file":"model/init.go:28","msg":"数据%!s(MISSING)l连接失败","data":{"error":"this authentication plugin is not supported"}}
+{"level":"INFO","timestamp":"2019-05-08 16:24:21.698","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-08 16:24:21.699","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-05-08 16:24:47.910","file":"user/create.go:16","msg":"响应用户创建方法","data":{"X-Request-Id":""}}
+{"level":"ERROR","timestamp":"2019-05-08 16:29:49.456","file":"model/init.go:28","msg":"数据%!s(MISSING)l连接失败","data":{"error":"this authentication plugin is not supported"}}
+{"level":"INFO","timestamp":"2019-05-08 16:29:49.548","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-08 16:29:49.549","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-05-08 16:46:24.759","file":"user/create.go:16","msg":"响应用户创建方法","data":{"X-Request-Id":""}}
+{"level":"ERROR","timestamp":"2019-05-08 16:48:40.495","file":"model/init.go:28","msg":"数据%!s(MISSING)l连接失败","data":{"error":"this authentication plugin is not supported"}}
+{"level":"INFO","timestamp":"2019-05-08 16:48:40.508","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-08 16:48:40.509","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-05-08 16:55:07.014","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-08 16:55:07.014","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-08 16:55:08.084","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-05-08 16:55:37.560","file":"user/create.go:16","msg":"响应用户创建方法","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-08 17:01:18.460","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-08 17:01:18.461","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-08 17:01:19.492","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-05-08 17:01:27.671","file":"user/create.go:16","msg":"响应用户创建方法","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-08 17:23:05.614","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-08 17:23:05.614","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-08 17:23:06.633","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-05-08 17:23:25.159","file":"user/create.go:16","msg":"响应用户创建方法","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-08 17:35:33.767","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-08 17:35:33.767","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-08 17:35:34.776","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-05-08 17:38:26.384","file":"user/create.go:16","msg":"响应用户创建方法","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-08 17:38:42.617","file":"user/create.go:16","msg":"响应用户创建方法","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-08 17:38:48.916","file":"user/create.go:16","msg":"响应用户创建方法","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-08 17:38:53.721","file":"user/create.go:16","msg":"响应用户创建方法","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-08 17:38:58.435","file":"user/create.go:16","msg":"响应用户创建方法","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-08 17:39:02.812","file":"user/create.go:16","msg":"响应用户创建方法","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-08 17:39:07.300","file":"user/create.go:16","msg":"响应用户创建方法","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-08 17:39:11.710","file":"user/create.go:16","msg":"响应用户创建方法","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-08 17:39:15.850","file":"user/create.go:16","msg":"响应用户创建方法","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-08 17:39:22.825","file":"user/create.go:16","msg":"响应用户创建方法","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-08 18:25:17.503","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-08 18:25:17.504","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-08 18:25:18.520","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-05-08 18:28:03.831","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-08 18:28:03.831","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-08 18:28:04.863","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-05-09 09:39:01.939","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-09 09:39:01.940","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-09 09:39:02.948","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-05-09 09:52:38.261","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-09 09:52:38.262","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-09 09:52:39.269","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-05-09 11:02:22.360","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-09 11:02:22.361","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-09 11:02:23.374","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"DEBUG","timestamp":"2019-05-09 11:22:26.034","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/list, 方法名：POST, body：`{\"offset\": 5, \"limit\": 5}`"}
+{"level":"INFO","timestamp":"2019-05-09 11:22:26.175","file":"middleware/logging.go:80","msg":"141.384ms     | ::1          | POST /v1/user/list | {code: 0, message: 成功}"}
+{"level":"INFO","timestamp":"2019-05-09 11:23:59.636","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-09 11:23:59.637","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-09 11:24:00.650","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"DEBUG","timestamp":"2019-05-09 11:25:56.967","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/list, 方法：POST, body：`{\"offset\": 5, \"limit\": 5}`"}
+{"level":"INFO","timestamp":"2019-05-09 11:26:30.130","file":"middleware/logging.go:80","msg":"15.261ms      | ::1          | POST /v1/user/list | {code: 0, message: 成功}"}
+{"level":"INFO","timestamp":"2019-05-09 11:27:10.263","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-09 11:27:10.264","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-09 11:27:11.284","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"DEBUG","timestamp":"2019-05-09 11:27:16.021","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/list, 方法：POST, body：`{\"offset\": 5, \"limit\": 5}`"}
+{"level":"INFO","timestamp":"2019-05-09 11:27:16.036","file":"middleware/logging.go:80","msg":"15.106ms      | ::1          | POST /v1/user/list | {code: 0, message: 成功}"}
+{"level":"INFO","timestamp":"2019-05-09 16:42:47.709","file":"config/config.go:53","msg":"配置文件：/Users/smx/Documents/tech/mygo/src/apiserver-study/conf/config.yaml 更改"}
+{"level":"INFO","timestamp":"2019-05-09 16:42:54.789","file":"config/config.go:53","msg":"配置文件：/Users/smx/Documents/tech/mygo/src/apiserver-study/conf/config.yaml 更改"}
+{"level":"INFO","timestamp":"2019-05-09 16:54:39.052","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-09 16:54:39.053","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-09 16:54:40.070","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"DEBUG","timestamp":"2019-05-09 16:57:18.353","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/login, 方法：GET, body：`{\"username\":\"admin\",\"password\":\"admin\"}`"}
+{"level":"ERROR","timestamp":"2019-05-09 16:57:18.451","file":"middleware/logging.go:72","msg":"响应body不能解析到model.response结构体，body:``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2019-05-09 16:57:18.451","file":"middleware/logging.go:80","msg":"98.301ms      | ::1          | GET /login | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"DEBUG","timestamp":"2019-05-09 16:57:25.386","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/login, 方法：POST, body：`{\"username\":\"admin\",\"password\":\"admin\"}`"}
+{"level":"INFO","timestamp":"2019-05-09 16:57:25.407","file":"middleware/logging.go:80","msg":"20.923ms      | ::1          | POST /login | {code: 10002, message: 请求body绑定到结构体时错误}"}
+{"level":"DEBUG","timestamp":"2019-05-09 16:58:01.495","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/login, 方法：POST, body：`{\"username\":\"admin\",\"password\":\"admin\"}`"}
+{"level":"INFO","timestamp":"2019-05-09 16:58:02.207","file":"middleware/logging.go:80","msg":"712.516ms     | ::1          | POST /login | {code: 20102, message: 没有找到这个用户}"}
+{"level":"DEBUG","timestamp":"2019-05-09 16:58:17.318","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/login, 方法：POST, body：`{\"username\":\"kong\",\"password\":\"admin\"}`"}
+{"level":"INFO","timestamp":"2019-05-09 16:58:17.460","file":"middleware/logging.go:80","msg":"141.506ms     | ::1          | POST /login | {code: 20106, message: 密码错误}"}
+{"level":"DEBUG","timestamp":"2019-05-09 16:58:50.404","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/login, 方法：POST, body：`{\"username\":\"kong\",\"password\":\"kong123\"}`"}
+{"level":"INFO","timestamp":"2019-05-09 16:58:50.557","file":"middleware/logging.go:80","msg":"152.877ms     | ::1          | POST /login | {code: 0, message: 成功}"}
+{"level":"DEBUG","timestamp":"2019-05-09 16:59:25.456","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/login, 方法：POST, body：`{\"username\":\"kong\",\"password\":\"kong123\"}`"}
+{"level":"INFO","timestamp":"2019-05-09 17:01:29.113","file":"middleware/logging.go:80","msg":"2m3.657362s   | ::1          | POST /login | {code: 0, message: 成功}"}
+{"level":"DEBUG","timestamp":"2019-05-09 17:03:19.087","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：`{\"offset\": 0, \"limit\": 20}`"}
+{"level":"INFO","timestamp":"2019-05-09 17:03:19.269","file":"middleware/logging.go:80","msg":"182.008ms     | ::1          | GET /v1/user/kong1 | {code: 20105, message: token失效}"}
+{"level":"DEBUG","timestamp":"2019-05-09 17:03:21.549","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：`{\"offset\": 0, \"limit\": 20}`"}
+{"level":"INFO","timestamp":"2019-05-09 17:03:21.549","file":"middleware/logging.go:80","msg":"361µs         | ::1          | GET /v1/user/kong1 | {code: 20105, message: token失效}"}
+{"level":"DEBUG","timestamp":"2019-05-09 17:04:05.882","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：`{\"offset\": 0, \"limit\": 20}`"}
+{"level":"INFO","timestamp":"2019-05-09 17:04:05.893","file":"middleware/logging.go:80","msg":"11.326ms      | ::1          | GET /v1/user/kong1 | {code: 20105, message: token失效}"}
+{"level":"DEBUG","timestamp":"2019-05-09 17:05:00.162","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：`{\"offset\": 0, \"limit\": 20}`"}
+{"level":"INFO","timestamp":"2019-05-09 17:05:00.184","file":"middleware/logging.go:80","msg":"22.704ms      | ::1          | GET /v1/user/kong1 | {code: 20105, message: token失效}"}
+{"level":"DEBUG","timestamp":"2019-05-09 17:05:19.491","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：`{\"offset\": 0, \"limit\": 20}`"}
+{"level":"INFO","timestamp":"2019-05-09 17:05:19.492","file":"middleware/logging.go:80","msg":"233µs         | ::1          | GET /v1/user/kong1 | {code: 20105, message: token失效}"}
+{"level":"DEBUG","timestamp":"2019-05-09 17:05:45.404","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：`{\"offset\": 0, \"limit\": 20}`"}
+{"level":"INFO","timestamp":"2019-05-09 17:05:45.420","file":"middleware/logging.go:80","msg":"16.029ms      | ::1          | GET /v1/user/kong1 | {code: 20105, message: token失效}"}
+{"level":"DEBUG","timestamp":"2019-05-09 17:06:19.603","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：`{\"offset\": 0, \"limit\": 20}`"}
+{"level":"INFO","timestamp":"2019-05-09 17:06:19.603","file":"middleware/logging.go:80","msg":"256µs         | ::1          | GET /v1/user/kong1 | {code: 20105, message: token失效}"}
+{"level":"INFO","timestamp":"2019-05-09 17:07:01.274","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-09 17:07:01.274","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-09 17:07:02.782","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"DEBUG","timestamp":"2019-05-09 17:11:46.966","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：`{\"offset\": 0, \"limit\": 20}`"}
+{"level":"INFO","timestamp":"2019-05-09 17:13:28.646","file":"middleware/logging.go:80","msg":"1m41.679704s  | ::1          | GET /v1/user/kong1 | {code: 20105, message: token失效}"}
+{"level":"DEBUG","timestamp":"2019-05-09 17:14:12.382","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：`{\"offset\": 0, \"limit\": 20}`"}
+{"level":"INFO","timestamp":"2019-05-09 17:20:48.399","file":"middleware/logging.go:80","msg":"6m36.017379s  | ::1          | GET /v1/user/kong1 | {code: 20105, message: token失效}"}
+{"level":"DEBUG","timestamp":"2019-05-09 17:21:25.277","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：`{\"offset\": 0, \"limit\": 20}`"}
+{"level":"INFO","timestamp":"2019-05-09 17:22:04.305","file":"middleware/logging.go:80","msg":"39.028075s    | ::1          | GET /v1/user/kong1 | {code: 20105, message: token失效}"}
+{"level":"DEBUG","timestamp":"2019-05-09 17:23:17.004","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：``"}
+{"level":"INFO","timestamp":"2019-05-09 17:24:10.710","file":"middleware/logging.go:80","msg":"53.705331s    | 127.0.0.1    | GET /v1/user/kong1 | {code: 20105, message: token失效}"}
+{"level":"DEBUG","timestamp":"2019-05-09 17:27:04.257","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：``"}
+{"level":"INFO","timestamp":"2019-05-09 17:27:57.273","file":"middleware/logging.go:80","msg":"53.01633s     | 127.0.0.1    | GET /v1/user/kong1 | {code: 20105, message: token失效}"}
+{"level":"DEBUG","timestamp":"2019-05-09 17:28:06.116","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：``"}
+{"level":"INFO","timestamp":"2019-05-09 17:30:14.245","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-09 17:30:14.246","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-09 17:30:15.295","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"DEBUG","timestamp":"2019-05-09 17:30:25.233","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：``"}
+{"level":"INFO","timestamp":"2019-05-09 18:34:45.772","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-09 18:34:45.772","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-09 18:34:46.792","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}

@@ -32,12 +32,15 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 		svcd.GET("/ram", sd.RAMCheck)
 	}
 
+	g.POST("/login", user.Login)
+
 	u := g.Group("/v1/user")
+	u.Use(middleware.AuthMiddleware())
 	{
 		u.POST("", user.Create)
 		u.DELETE("/:id", user.Delete)
 		u.PUT("/:id", user.Update)
-		u.GET("", user.List)
+		u.POST("/list", user.List)
 		u.GET("/:username", user.Get)
 	}
 
