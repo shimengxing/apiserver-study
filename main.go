@@ -48,6 +48,16 @@ func main() {
 		log.Info("路由器部署成功")
 	}()
 
+	//监听https
+	cert := viper.GetString("tls.cert")
+	key := viper.GetString("tls.key")
+	if cert != "" && key != "" {
+		go func() {
+			log.Infof("开始监听https请求，端口是：%s", viper.GetString("tls.addr"))
+			log.Info(http.ListenAndServeTLS(viper.GetString("tls.addr"), cert, key, g).Error())
+		}()
+	}
+
 	log.Infof("开始监听端口: %s", viper.GetString("addr"))
 	log.Infof(http.ListenAndServe(viper.GetString("addr"), g).Error())
 }

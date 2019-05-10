@@ -18,3 +18,7 @@ docker_db:
   password: test0001 #数据库密码
   addr: 127.0.0.1:3306 #访问地址
   name: apiserver_study #数据库名称
+tls:
+  addr: :8081
+  cert: conf/server.crt
+  key: conf/server.key

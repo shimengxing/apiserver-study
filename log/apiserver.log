@@ -283,3 +283,40 @@
 {"level":"INFO","timestamp":"2019-05-09 18:34:45.772","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
 {"level":"INFO","timestamp":"2019-05-09 18:34:45.772","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
 {"level":"INFO","timestamp":"2019-05-09 18:34:46.792","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"INFO","timestamp":"2019-05-10 09:18:00.858","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-10 09:18:00.859","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-10 09:18:01.894","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"DEBUG","timestamp":"2019-05-10 09:21:19.167","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/login, 方法：POST, body：`{\"username\":\"kong\",\"password\":\"kong123\"}`"}
+{"level":"INFO","timestamp":"2019-05-10 09:22:09.843","file":"middleware/logging.go:80","msg":"50.675925s    | ::1          | POST /login | {code: 0, message: 成功}"}
+{"level":"DEBUG","timestamp":"2019-05-10 09:22:41.309","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：`{\"offset\": 0, \"limit\": 20}`"}
+{"level":"INFO","timestamp":"2019-05-10 09:24:34.428","file":"middleware/logging.go:80","msg":"1m53.119449s  | ::1          | GET /v1/user/kong1 | {code: 20105, message: token失效}"}
+{"level":"DEBUG","timestamp":"2019-05-10 09:25:18.749","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：`{\"offset\": 0, \"limit\": 20}`"}
+{"level":"INFO","timestamp":"2019-05-10 09:26:41.708","file":"middleware/logging.go:80","msg":"1m22.959219s  | ::1          | GET /v1/user/kong1 | {code: 20105, message: token失效}"}
+{"level":"DEBUG","timestamp":"2019-05-10 09:26:45.128","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：`{\"offset\": 0, \"limit\": 20}`"}
+{"level":"INFO","timestamp":"2019-05-10 09:32:27.704","file":"middleware/logging.go:80","msg":"5m42.575848s  | ::1          | GET /v1/user/kong1 | {code: 20105, message: token失效}"}
+{"level":"DEBUG","timestamp":"2019-05-10 09:34:42.957","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：`{\"offset\": 0, \"limit\": 20}`"}
+{"level":"INFO","timestamp":"2019-05-10 09:34:48.330","file":"middleware/logging.go:80","msg":"5.373192s     | ::1          | GET /v1/user/kong1 | {code: 20105, message: token失效}"}
+{"level":"DEBUG","timestamp":"2019-05-10 09:34:57.941","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/login, 方法：POST, body：`{\"username\":\"kong1\",\"password\":\"kong123\"}`"}
+{"level":"INFO","timestamp":"2019-05-10 09:34:58.031","file":"middleware/logging.go:80","msg":"89.586ms      | ::1          | POST /login | {code: 20102, message: 没有找到这个用户}"}
+{"level":"DEBUG","timestamp":"2019-05-10 09:35:03.761","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/login, 方法：POST, body：`{\"username\":\"kong2\",\"password\":\"kong123\"}`"}
+{"level":"INFO","timestamp":"2019-05-10 09:35:52.350","file":"middleware/logging.go:80","msg":"48.589316s    | ::1          | POST /login | {code: 0, message: 成功}"}
+{"level":"DEBUG","timestamp":"2019-05-10 09:36:06.208","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：`{\"offset\": 0, \"limit\": 20}`"}
+{"level":"ERROR","timestamp":"2019-05-10 09:38:43.316","file":"middleware/logging.go:72","msg":"响应body不能解析到model.response结构体，body:`{\"code\":20102,\"message\":\"没有找到这个用户\",\"data\":null}{\"code\":0,\"message\":\"成功\",\"data\":{\"username\":\"\",\"password\":\"\"}}`","data":{"error":"invalid character '{' after top-level value"}}
+{"level":"INFO","timestamp":"2019-05-10 09:38:43.320","file":"middleware/logging.go:80","msg":"2m37.107595s  | ::1          | GET /v1/user/kong1 | {code: 10001, message: invalid character '{' after top-level value}"}
+{"level":"INFO","timestamp":"2019-05-10 09:49:20.002","file":"apiserver-study/main.go:51","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-10 09:49:20.003","file":"apiserver-study/main.go:65","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-10 09:49:21.018","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"DEBUG","timestamp":"2019-05-10 09:53:20.136","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong1, 方法：GET, body：`{\"offset\": 0, \"limit\": 20}`"}
+{"level":"INFO","timestamp":"2019-05-10 09:53:50.104","file":"middleware/logging.go:80","msg":"29.967823s    | ::1          | GET /v1/user/kong1 | {code: 20102, message: 没有找到这个用户}"}
+{"level":"DEBUG","timestamp":"2019-05-10 09:54:15.911","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/list, 方法：POST, body：`{\"offset\": 5, \"limit\": 5}`"}
+{"level":"INFO","timestamp":"2019-05-10 09:54:31.902","file":"middleware/logging.go:80","msg":"15.990316s    | ::1          | POST /v1/user/list | {code: 0, message: 成功}"}
+{"level":"DEBUG","timestamp":"2019-05-10 09:55:19.419","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/list, 方法：POST, body：`{\"offset\": 0, \"limit\": 100}`"}
+{"level":"INFO","timestamp":"2019-05-10 09:55:21.164","file":"middleware/logging.go:80","msg":"1.745842s     | ::1          | POST /v1/user/list | {code: 0, message: 成功}"}
+{"level":"DEBUG","timestamp":"2019-05-10 09:55:33.230","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/v1/user/kong, 方法：GET, body：`{\"offset\": 0, \"limit\": 20}`"}
+{"level":"INFO","timestamp":"2019-05-10 09:55:40.546","file":"middleware/logging.go:80","msg":"7.316599s     | ::1          | GET /v1/user/kong | {code: 0, message: 成功}"}
+{"level":"INFO","timestamp":"2019-05-10 13:46:38.169","file":"apiserver-study/main.go:61","msg":"开始监听端口: :8080"}
+{"level":"INFO","timestamp":"2019-05-10 13:46:38.169","file":"apiserver-study/main.go:56","msg":"开始监听https请求，端口是：:8081"}
+{"level":"INFO","timestamp":"2019-05-10 13:46:38.169","file":"apiserver-study/main.go:75","msg":"等待路由器，1秒后重试"}
+{"level":"INFO","timestamp":"2019-05-10 13:46:39.268","file":"apiserver-study/main.go:48","msg":"路由器部署成功"}
+{"level":"DEBUG","timestamp":"2019-05-10 13:59:09.548","file":"middleware/logging.go:54","msg":"新的请求进来，路径：/login, 方法：POST, body：`{\"username\":\"kong2\",\"password\":\"kong123\"}`"}
+{"level":"INFO","timestamp":"2019-05-10 13:59:18.622","file":"middleware/logging.go:80","msg":"9.074609s     | ::1          | POST /login | {code: 0, message: 成功}"}
